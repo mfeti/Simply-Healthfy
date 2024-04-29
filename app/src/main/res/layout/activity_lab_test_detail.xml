@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".LabTestDetailActivity"
-    android:background="@drawable/labtest2">
+    android:background="@drawable/back1">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -100,7 +100,7 @@
             android:ems="10"
             android:gravity="center"
             android:inputType="textMultiLine"
-            android:textColor="@color/white"
+            android:textColor="@color/black"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toBottomOf="@id/tvldpackages" />

@@ -11,7 +11,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/line_a"
         android:text="TextView"
-        android:textColor="@color/purple_500"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="italic"
         />
@@ -21,7 +21,7 @@
         android:layout_height="wrap_content"
         android:id="@+id/line_b"
         android:text="TextView"
-        android:textColor="#7944D7"
+        android:textColor="#222"
         android:textSize="18dp"
         android:textStyle="italic"
         />

@@ -29,7 +29,7 @@
         android:id="@+id/tvlogin"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="40dp"
         android:gravity="center"
         android:text="LOGIN"
         android:textAlignment="center"
@@ -58,7 +58,6 @@
         android:paddingRight="20dp"
         app:layout_constraintBottom_toTopOf="@+id/buttonlogin"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/etlogname"
         tools:ignore="MissingConstraints" />
@@ -81,7 +80,6 @@
         android:paddingRight="20dp"
         app:layout_constraintBottom_toTopOf="@+id/etlogpass"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tvlogin"
         tools:ignore="MissingConstraints" />
@@ -106,14 +104,16 @@
         android:id="@+id/tvreg"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="12dp"
         android:text="New User! Register Here "
         android:textAlignment="center"
+        android:textColor="@color/black"
         android:textSize="20dp"
         android:textStyle="bold"
+        app:backgroundTint="@color/white"
         app:layout_constraintTop_toBottomOf="@id/buttonlogin"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="-16dp" />
+        tools:layout_editor_absoluteX="0dp" />
 
     <Button
         android:id="@+id/btnGoogle"
@@ -126,14 +126,17 @@
         android:textColor="@color/black"
         app:backgroundTint="@color/white"
         app:cornerRadius="4dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintBottom_toTopOf="@+id/etlogname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvlogin"
+        app:layout_constraintVertical_bias="0.0" />
 
     <Button
         android:id="@+id/btnPhoneCall"
-        android:layout_width="135dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:drawableLeft="@drawable/ic_phone_call"
         android:padding="15dp"
@@ -141,9 +144,12 @@
         android:textColor="@color/black"
         app:backgroundTint="@color/white"
         app:cornerRadius="4dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="194dp"
-        tools:layout_editor_absoluteY="131dp" />
+        app:layout_constraintBottom_toTopOf="@+id/etlogname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvlogin"
+        app:layout_constraintVertical_bias="0.0" />
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

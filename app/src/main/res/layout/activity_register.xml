@@ -177,14 +177,17 @@
         android:textColor="@color/black"
         app:backgroundTint="@color/white"
         app:cornerRadius="4dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="64dp"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintBottom_toTopOf="@+id/etregname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.736"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvregister"
+        app:layout_constraintVertical_bias="0.543" />
 
     <Button
         android:id="@+id/btnPhoneCall"
-        android:layout_width="135dp"
-        android:layout_height="65dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_weight="1"
         android:drawableLeft="@drawable/ic_phone_call"
         android:padding="15dp"
@@ -192,8 +195,11 @@
         android:textColor="@color/black"
         app:backgroundTint="@color/white"
         app:cornerRadius="4dp"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="196dp"
-        tools:layout_editor_absoluteY="216dp" />
+        app:layout_constraintBottom_toTopOf="@+id/etregname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.27"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvregister"
+        app:layout_constraintVertical_bias="0.543" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
