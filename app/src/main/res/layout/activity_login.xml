@@ -127,8 +127,8 @@
         app:backgroundTint="@color/white"
         app:cornerRadius="4dp"
         tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="62dp"
-        tools:layout_editor_absoluteY="128dp" />
+        tools:layout_editor_absoluteX="63dp"
+        tools:layout_editor_absoluteY="131dp" />
 
     <Button
         android:id="@+id/btnPhoneCall"
@@ -145,7 +145,7 @@
         tools:layout_editor_absoluteX="194dp"
         tools:layout_editor_absoluteY="131dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
-    <?xml version="1.0" encoding="utf-8"?>
+
 
 
 
