@@ -114,4 +114,38 @@
         app:layout_constraintTop_toBottomOf="@id/buttonlogin"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="-16dp" />
+
+    <Button
+        android:id="@+id/btnGoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_google"
+        android:padding="15dp"
+        android:text="google"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="128dp" />
+
+    <Button
+        android:id="@+id/btnPhoneCall"
+        android:layout_width="135dp"
+        android:layout_height="65dp"
+        android:layout_weight="1"
+        android:drawableLeft="@drawable/ic_phone_call"
+        android:padding="15dp"
+        android:text="phone"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="4dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="194dp"
+        tools:layout_editor_absoluteY="131dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
+    <?xml version="1.0" encoding="utf-8"?>
+
+
+
